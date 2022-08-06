@@ -11,6 +11,30 @@
 		39110F5E289E95F900200A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110F5D289E95F900200A94 /* ContentView.swift */; };
 		39110F60289E95FA00200A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39110F5F289E95FA00200A94 /* Assets.xcassets */; };
 		39110F63289E95FA00200A94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39110F62289E95FA00200A94 /* Preview Assets.xcassets */; };
+		39110F77289E986300200A94 /* SpotifyLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110F76289E986300200A94 /* SpotifyLoginView.swift */; };
+		39110F8D289E99E800200A94 /* Fonts Magazine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 39110F7A289E99E800200A94 /* Fonts Magazine.txt */; };
+		39110F8E289E99E800200A94 /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F7B289E99E800200A94 /* Gotham-XLight.otf */; };
+		39110F8F289E99E800200A94 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F7C289E99E800200A94 /* Gotham-Thin.otf */; };
+		39110F90289E99E800200A94 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F7D289E99E800200A94 /* Gotham-Black.otf */; };
+		39110F91289E99E800200A94 /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F7E289E99E800200A94 /* Gotham-XLightItalic.otf */; };
+		39110F92289E99E800200A94 /* GothamLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F7F289E99E800200A94 /* GothamLight.ttf */; };
+		39110F93289E99E800200A94 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F80289E99E800200A94 /* Gotham-UltraItalic.otf */; };
+		39110F94289E99E800200A94 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F81289E99E800200A94 /* Gotham-Bold.otf */; };
+		39110F95289E99E800200A94 /* GothamMediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F82289E99E800200A94 /* GothamMediumItalic.ttf */; };
+		39110F96289E99E800200A94 /* GothamBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F83289E99E800200A94 /* GothamBookItalic.ttf */; };
+		39110F97289E99E800200A94 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F84289E99E800200A94 /* Gotham-ThinItalic.otf */; };
+		39110F98289E99E800200A94 /* GothamMedium_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F85289E99E800200A94 /* GothamMedium_1.ttf */; };
+		39110F99289E99E800200A94 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F86289E99E800200A94 /* Gotham-Light.otf */; };
+		39110F9A289E99E800200A94 /* GothamBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F87289E99E800200A94 /* GothamBold.ttf */; };
+		39110F9B289E99E800200A94 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F88289E99E800200A94 /* Gotham-BookItalic.otf */; };
+		39110F9C289E99E800200A94 /* GothamBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F89289E99E800200A94 /* GothamBoldItalic.ttf */; };
+		39110F9D289E99E800200A94 /* GothamBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F8A289E99E800200A94 /* GothamBook.ttf */; };
+		39110F9E289E99E800200A94 /* GothamLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F8B289E99E800200A94 /* GothamLightItalic.ttf */; };
+		39110F9F289E99E800200A94 /* GothamMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39110F8C289E99E800200A94 /* GothamMedium.ttf */; };
+		39110FA2289E9CB100200A94 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA1289E9CB100200A94 /* Color+Extension.swift */; };
+		39110FA4289EAEB200200A94 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA3289EAEB200200A94 /* View+Extension.swift */; };
+		39110FA7289EC8E900200A94 /* SNSLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA6289EC8E900200A94 /* SNSLoginButton.swift */; };
+		39110FA9289ED29F00200A94 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA8289ED29F00200A94 /* Text+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +43,31 @@
 		39110F5D289E95F900200A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39110F5F289E95FA00200A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39110F62289E95FA00200A94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39110F76289E986300200A94 /* SpotifyLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginView.swift; sourceTree = "<group>"; };
+		39110F7A289E99E800200A94 /* Fonts Magazine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fonts Magazine.txt"; sourceTree = "<group>"; };
+		39110F7B289E99E800200A94 /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		39110F7C289E99E800200A94 /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		39110F7D289E99E800200A94 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		39110F7E289E99E800200A94 /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		39110F7F289E99E800200A94 /* GothamLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLight.ttf; sourceTree = "<group>"; };
+		39110F80289E99E800200A94 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		39110F81289E99E800200A94 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		39110F82289E99E800200A94 /* GothamMediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMediumItalic.ttf; sourceTree = "<group>"; };
+		39110F83289E99E800200A94 /* GothamBookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBookItalic.ttf; sourceTree = "<group>"; };
+		39110F84289E99E800200A94 /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		39110F85289E99E800200A94 /* GothamMedium_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium_1.ttf; sourceTree = "<group>"; };
+		39110F86289E99E800200A94 /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		39110F87289E99E800200A94 /* GothamBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBold.ttf; sourceTree = "<group>"; };
+		39110F88289E99E800200A94 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		39110F89289E99E800200A94 /* GothamBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBoldItalic.ttf; sourceTree = "<group>"; };
+		39110F8A289E99E800200A94 /* GothamBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamBook.ttf; sourceTree = "<group>"; };
+		39110F8B289E99E800200A94 /* GothamLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamLightItalic.ttf; sourceTree = "<group>"; };
+		39110F8C289E99E800200A94 /* GothamMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamMedium.ttf; sourceTree = "<group>"; };
+		39110FA0289E9AA500200A94 /* SwiftUI-DevNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-DevNote-Info.plist"; sourceTree = SOURCE_ROOT; };
+		39110FA1289E9CB100200A94 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		39110FA3289EAEB200200A94 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		39110FA6289EC8E900200A94 /* SNSLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginButton.swift; sourceTree = "<group>"; };
+		39110FA8289ED29F00200A94 /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +100,7 @@
 		39110F5A289E95F900200A94 /* SwiftUI_DevNote */ = {
 			isa = PBXGroup;
 			children = (
+				39110FA0289E9AA500200A94 /* SwiftUI-DevNote-Info.plist */,
 				39110F6C289E96C600200A94 /* Network */,
 				39110F6B289E96C200200A94 /* Screens */,
 				39110F69289E961200200A94 /* Global */,
@@ -89,6 +139,7 @@
 		39110F6B289E96C200200A94 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				39110F72289E97FC00200A94 /* Spotify */,
 				39110F5D289E95F900200A94 /* ContentView.swift */,
 			);
 			path = Screens;
@@ -112,6 +163,7 @@
 		39110F6E289E96E300200A94 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				39110F78289E99D600200A94 /* Fonts */,
 				39110F61289E95FA00200A94 /* Preview Content */,
 				39110F5F289E95FA00200A94 /* Assets.xcassets */,
 			);
@@ -121,6 +173,9 @@
 		39110F6F289E96F800200A94 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				39110FA1289E9CB100200A94 /* Color+Extension.swift */,
+				39110FA3289EAEB200200A94 /* View+Extension.swift */,
+				39110FA8289ED29F00200A94 /* Text+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -128,6 +183,7 @@
 		39110F70289E96FB00200A94 /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
+				39110FA6289EC8E900200A94 /* SNSLoginButton.swift */,
 			);
 			path = UIComponent;
 			sourceTree = "<group>";
@@ -137,6 +193,56 @@
 			children = (
 			);
 			path = Literal;
+			sourceTree = "<group>";
+		};
+		39110F72289E97FC00200A94 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				39110F73289E980300200A94 /* Login */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		39110F73289E980300200A94 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				39110F76289E986300200A94 /* SpotifyLoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		39110F78289E99D600200A94 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39110F79289E99E800200A94 /* Spotify-Font */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		39110F79289E99E800200A94 /* Spotify-Font */ = {
+			isa = PBXGroup;
+			children = (
+				39110F7A289E99E800200A94 /* Fonts Magazine.txt */,
+				39110F7B289E99E800200A94 /* Gotham-XLight.otf */,
+				39110F7C289E99E800200A94 /* Gotham-Thin.otf */,
+				39110F7D289E99E800200A94 /* Gotham-Black.otf */,
+				39110F7E289E99E800200A94 /* Gotham-XLightItalic.otf */,
+				39110F7F289E99E800200A94 /* GothamLight.ttf */,
+				39110F80289E99E800200A94 /* Gotham-UltraItalic.otf */,
+				39110F81289E99E800200A94 /* Gotham-Bold.otf */,
+				39110F82289E99E800200A94 /* GothamMediumItalic.ttf */,
+				39110F83289E99E800200A94 /* GothamBookItalic.ttf */,
+				39110F84289E99E800200A94 /* Gotham-ThinItalic.otf */,
+				39110F85289E99E800200A94 /* GothamMedium_1.ttf */,
+				39110F86289E99E800200A94 /* Gotham-Light.otf */,
+				39110F87289E99E800200A94 /* GothamBold.ttf */,
+				39110F88289E99E800200A94 /* Gotham-BookItalic.otf */,
+				39110F89289E99E800200A94 /* GothamBoldItalic.ttf */,
+				39110F8A289E99E800200A94 /* GothamBook.ttf */,
+				39110F8B289E99E800200A94 /* GothamLightItalic.ttf */,
+				39110F8C289E99E800200A94 /* GothamMedium.ttf */,
+			);
+			path = "Spotify-Font";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +303,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39110F94289E99E800200A94 /* Gotham-Bold.otf in Resources */,
+				39110F98289E99E800200A94 /* GothamMedium_1.ttf in Resources */,
+				39110F93289E99E800200A94 /* Gotham-UltraItalic.otf in Resources */,
+				39110F9F289E99E800200A94 /* GothamMedium.ttf in Resources */,
+				39110F91289E99E800200A94 /* Gotham-XLightItalic.otf in Resources */,
 				39110F63289E95FA00200A94 /* Preview Assets.xcassets in Resources */,
+				39110F90289E99E800200A94 /* Gotham-Black.otf in Resources */,
+				39110F97289E99E800200A94 /* Gotham-ThinItalic.otf in Resources */,
+				39110F9E289E99E800200A94 /* GothamLightItalic.ttf in Resources */,
+				39110F9B289E99E800200A94 /* Gotham-BookItalic.otf in Resources */,
+				39110F96289E99E800200A94 /* GothamBookItalic.ttf in Resources */,
+				39110F92289E99E800200A94 /* GothamLight.ttf in Resources */,
+				39110F9D289E99E800200A94 /* GothamBook.ttf in Resources */,
+				39110F8F289E99E800200A94 /* Gotham-Thin.otf in Resources */,
+				39110F8E289E99E800200A94 /* Gotham-XLight.otf in Resources */,
+				39110F9A289E99E800200A94 /* GothamBold.ttf in Resources */,
+				39110F8D289E99E800200A94 /* Fonts Magazine.txt in Resources */,
+				39110F95289E99E800200A94 /* GothamMediumItalic.ttf in Resources */,
+				39110F9C289E99E800200A94 /* GothamBoldItalic.ttf in Resources */,
 				39110F60289E95FA00200A94 /* Assets.xcassets in Resources */,
+				39110F99289E99E800200A94 /* Gotham-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39110FA9289ED29F00200A94 /* Text+Extension.swift in Sources */,
 				39110F5E289E95F900200A94 /* ContentView.swift in Sources */,
 				39110F5C289E95F900200A94 /* SwiftUI_DevNoteApp.swift in Sources */,
+				39110FA4289EAEB200200A94 /* View+Extension.swift in Sources */,
+				39110F77289E986300200A94 /* SpotifyLoginView.swift in Sources */,
+				39110FA7289EC8E900200A94 /* SNSLoginButton.swift in Sources */,
+				39110FA2289E9CB100200A94 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +472,7 @@
 				DEVELOPMENT_TEAM = HF8GHZB58X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-DevNote-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -371,6 +502,7 @@
 				DEVELOPMENT_TEAM = HF8GHZB58X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-DevNote-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
