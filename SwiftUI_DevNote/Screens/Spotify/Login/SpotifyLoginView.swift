@@ -39,6 +39,7 @@ struct SpotifyLoginView: View {
         Image("spotify_login_image")
             .resizable()
             .scaledToFit()
+            .ignoresSafeArea()
     }
 
     private func spotifyIconImage() -> some View {
