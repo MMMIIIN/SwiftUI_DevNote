@@ -8,29 +8,50 @@
 import SwiftUI
 
 struct SpotifyLoginView: View {
-    let width = UIScreen.main.bounds.width
-    let height = UIScreen.main.bounds.height
+    private let width = UIScreen.main.bounds.width
+    private let height = UIScreen.main.bounds.height
+    
+    private enum SNSLoginType: CaseIterable {
+        case google
+        case facebook
+        case apple
+        
+        var image: Image {
+            switch self {
+            case .google:
+                return Image("google")
+            case .facebook:
+                return Image("facebook")
+            case .apple:
+                return Image("apple")
+            }
+        }
+        
+        var text: String {
+            switch self {
+            case .google:
+                return "Continue with Google"
+            case .facebook:
+                return "Continue with Facebook"
+            case .apple:
+                return "Continue with Apple"
+            }
+        }
+    }
 
     var body: some View {
-        GeometryReader { geo in
-            ZStack {
-                backgroundSpotifyImage()
-                    .frame(width: width, height: height, alignment: .top)
-                VStack(alignment: .center, spacing: 10) {
-                    spotifyIconImage()
-                    Text("Discover your next\nfavorite playlist.")
-                        .spotifyGothamBlack(size: 28, color: .white)
-                        .multilineTextAlignment(.center)
-                        .padding(.bottom, 34)
-                    signUpButton()
-                    SNSLoginButton(text: "Continue with Google", image: Image("google"))
-                    SNSLoginButton(text: "Continue with Facebook", image: Image("facebook"))
-                    SNSLoginButton(text: "Continue with Apple", image: Image("apple"))
-                    loginButton()
-                }
-                    .frame(width: geo.size.width, height: geo.size.height, alignment: .bottom)
-                    .padding(.bottom, 60)
+        ZStack {
+            backgroundSpotifyImage()
+                .frame(width: width, height: height, alignment: .top)
+            VStack(alignment: .center, spacing: 10) {
+                spotifyIconImage()
+                titleText()
+                signUpButton()
+                snsLoginButton()
+                loginButton()
             }
+                .frame(width: width, height: height, alignment: .bottom)
+                .padding(.bottom, 60)
         }
             .preferredColorScheme(.dark)
     }
@@ -49,6 +70,13 @@ struct SpotifyLoginView: View {
             .padding(.bottom, 18)
     }
 
+    private func titleText() -> some View {
+        Text("Discover your next\nfavorite playlist.")
+            .spotifyGothamBlack(size: 28, color: .white)
+            .multilineTextAlignment(.center)
+            .padding(.bottom, 34)
+    }
+
     private func signUpButton() -> some View {
         Button {
             print("touched Sign up Button")
@@ -58,6 +86,12 @@ struct SpotifyLoginView: View {
                 .frame(width: width - 64, height: 48, alignment: .center)
                 .background(Color.spotifyGreen)
                 .cornerRadius(24)
+        }
+    }
+    
+    private func snsLoginButton() -> some View {
+        ForEach(SNSLoginType.allCases, id: \.self) { type in
+            SNSLoginButton(text: type.text, image: type.image)
         }
     }
 
