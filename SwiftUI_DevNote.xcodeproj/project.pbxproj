@@ -35,6 +35,7 @@
 		39110FA4289EAEB200200A94 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA3289EAEB200200A94 /* View+Extension.swift */; };
 		39110FA7289EC8E900200A94 /* SNSLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA6289EC8E900200A94 /* SNSLoginButton.swift */; };
 		39110FA9289ED29F00200A94 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39110FA8289ED29F00200A94 /* Text+Extension.swift */; };
+		397A241F28BD16CD00454E4F /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A241E28BD16CD00454E4F /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		39110FA3289EAEB200200A94 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		39110FA6289EC8E900200A94 /* SNSLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginButton.swift; sourceTree = "<group>"; };
 		39110FA8289ED29F00200A94 /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		397A241E28BD16CD00454E4F /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		39110F6B289E96C200200A94 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				397A241B28BD16A400454E4F /* SwiftCodingClup */,
 				39110F72289E97FC00200A94 /* Spotify */,
 				39110F5D289E95F900200A94 /* ContentView.swift */,
 			);
@@ -245,6 +248,14 @@
 			path = "Spotify-Font";
 			sourceTree = "<group>";
 		};
+		397A241B28BD16A400454E4F /* SwiftCodingClup */ = {
+			isa = PBXGroup;
+			children = (
+				397A241E28BD16CD00454E4F /* FavoriteView.swift */,
+			);
+			path = SwiftCodingClup;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397A241F28BD16CD00454E4F /* FavoriteView.swift in Sources */,
 				39110FA9289ED29F00200A94 /* Text+Extension.swift in Sources */,
 				39110F5E289E95F900200A94 /* ContentView.swift in Sources */,
 				39110F5C289E95F900200A94 /* SwiftUI_DevNoteApp.swift in Sources */,
